@@ -1,1 +1,10 @@
 I have change this file because I want to test the local repository....
+import random
+
+# Open the file in append mode
+with open('/C:/Users/nimes/newstory/sample1.txt', 'a') as file:
+    # Generate random text
+    random_text = 'This is some random text: ' + str(random.randint(1, 100))
+
+    # Write the random text to the file
+    file.write(random_text)
